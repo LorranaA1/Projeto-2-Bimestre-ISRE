@@ -11,5 +11,4 @@ Tabela de definições de nomes e IPs para todas as VMs
 | VM1-PC2     | 172.17.1.2      |   srv-vm1-pc2     | kurose.labredes.net    |       www        |
 | VM2-PC2     | 172.17.1.4      |   srv-vm2-pc2     | tanembaum.labredes.net |       file       |
 -------------------------------------------------------------------------------------------------
-
 ```
