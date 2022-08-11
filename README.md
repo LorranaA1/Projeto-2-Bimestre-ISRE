@@ -6,6 +6,8 @@
 
 ## Inicialmente:
 
+### Realizar os comandos nos quatro computadores
+
 ✦ Abrir terminal do computador
 ✦  Logar com o usuário ``redes``
   ⇨ senha: ``admin@Lab92``
@@ -70,11 +72,18 @@ ubuntu-22.04-live-server-amd64.iso
 cd /labredes/images/original
 ls -la #lista todos os arquivos
 
-# Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
-scp aluno@192.168.101.10:~/Public/iso-images/mini.iso /labredes/images/original
-scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-20.04.4-desktop-amd64.iso /labredes/images/original
-scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-22.04-live-server-amd64.iso /labredes/images/original
+#ATENÇÃO: Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
+scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
 ```
+
+## Instalação do Virtualbox Extension Pack
+```
+su redes
+sudo apt install virtualbox-ext-pack
+```
+
+## Criando um ambiente de rede
+
 
 
 
