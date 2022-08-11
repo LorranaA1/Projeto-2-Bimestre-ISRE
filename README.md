@@ -6,7 +6,7 @@
 
 ## Inicialmente:
 
-### Realizar os comandos nos quatro computadores
+### Realizar os seguintes comandos nos quatro computadores:
 
 ✦ Abrir terminal do computador
 ✦  Logar com o usuário ``redes``
