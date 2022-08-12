@@ -100,8 +100,9 @@ sudo apt install virtualbox-ext-pack
 * Diretório onde será salva a VM: /labredes/VM/913/nome
 
 ❖ Criando VMs a partir da importação do arquivo OVA
+
+Exemplo de criação das VMs a seguir:
 ![Captura de Tela (61)](https://user-images.githubusercontent.com/103418874/184268694-5f3cdeca-5f4b-4fbe-955e-f9f402a27fb6.png)
-Exemplo de criação das VMs.
 
 ❖ Configurando as NICs das VMs
 
