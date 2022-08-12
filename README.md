@@ -190,7 +190,7 @@ $ ifconfig -a
 
 ❖ Figura 4: Ilustra as configurações para a importação das VMs
 
-####   <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
+###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
      
    * Ping da VM1 para VM2
 
@@ -206,7 +206,7 @@ ping 192.168.13.100
 ❖ Figura 4: Ilustra o ping das VMs
 ![Captura de Tela (63)](https://user-images.githubusercontent.com/103418874/184275949-e1e3360c-0794-4ebb-8bd6-62dc1f6d23f5.png)
 
-<sub>Para finalizar o comando</sub>
+### <sub>Para finalizar o comando</sub>
 ```shell
 ctrl + c
 ```
