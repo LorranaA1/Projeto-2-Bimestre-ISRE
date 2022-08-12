@@ -160,11 +160,11 @@ network:
     ethernets:
         enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
             addresses: [192.168.13.101/28]    # IP e Máscara do Host.
-            gateway4: 192.168.13.101          # IP do Gateway
+            gateway4: 192.168.13.97          # IP do Gateway
             dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
     version: 2
 ```
-✦ Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
+✦ Após salvar o arquivo (ctrl + x) é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
 ```bash
 $ sudo netplan apply
 $ ifconfig -a
