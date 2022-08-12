@@ -257,11 +257,12 @@ sudo ufw allow ssh.
 sudo ufw status
 ```
 
-❖ Figura 9: status do firewall
-![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
-
 #### <sub>Para ativar o firewall: </sub>
 ```
 sudo ufw enable
 ```
+
+❖ Figura 9: status do firewall
+![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
+
 
