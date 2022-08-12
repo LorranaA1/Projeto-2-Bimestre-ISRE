@@ -189,7 +189,7 @@ $ ifconfig -a
 ### 5.Configuração da rede interna do VirtualBox
 
 ❖ Figura 4: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
-![Redes (2)](https://user-images.githubusercontent.com/103418874/184277530-2ff6a3f5-7465-41e3-b7d1-86bff96ac343.png)
+![Captura de Tela (64)](https://user-images.githubusercontent.com/103418874/184277653-d9419900-b696-43a2-90d8-06735c983643.png)
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
      
