@@ -119,8 +119,7 @@ sudo apt install virtualbox-ext-pack
 
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
 
-............................................................
-## Configuração estática na interface de rede de endereço IP 
+### 4.Configuração estática na interface de rede de endereço IP 
 
 * O Ubuntu utiliza um arquivo YAML, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede
 * Digite os comandos:
@@ -131,20 +130,17 @@ cat /etc/netplan/01-netcfg.yaml
 ```
 ✦ Verifique o nome correto do arquivo no seu servidor. No exemplo a seguir, o nome do arquivo é ***01-netcfg.yaml***
 
+#### Na VM-Lab01
 
-### Na VM-Lab01
-
-* instale as ferramentas de rede
-
+✦ Instale as ferramentas de rede
 ```bash
 $ sudo apt install net-tools -y
 ```
-*  Edite o arquivo  ***01-netcfg.yaml*** 
-
+✦ Edite o arquivo  ***01-netcfg.yaml*** 
 ```bash
 $ sudo nano /etc/netplan/01-netcfg.yaml
 ```
-*  Adicione as linhas para a configuração estática do IP para configurar o IP para ``172.17.0.2/24``. 
+✦ Adicione as linhas para a configuração estática do IP para configurar o IP para ``192.168.13.``. 
 ```
 network:
     ethernets:
