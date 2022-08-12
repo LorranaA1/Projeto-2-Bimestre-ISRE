@@ -140,17 +140,17 @@ $ sudo apt install net-tools -y
 ```bash
 $ sudo nano /etc/netplan/01-netcfg.yaml
 ```
-✦ Adicione as linhas para a configuração estática do IP para configurar o IP para ``192.168.13.``. 
+✦ Adicione as linhas para a configuração estática do IP para configurar o IP para ``192.168.13.100/28``. 
 ```
 network:
     ethernets:
         enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
-            addresses: [172.17.0.1/24]    # IP e Máscara do Host.
-            gateway4: 172.17.0.1          # IP do Gateway
+            addresses: [192.168.13.100/28]    # IP e Máscara do Host.
+            gateway4: 192.168.13.100         # IP do Gateway
             dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
     version: 2
 ```
-*  Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
+✦ Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
 
 ```bash
 $ sudo netplan apply
