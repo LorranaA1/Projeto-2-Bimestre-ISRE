@@ -207,3 +207,61 @@ ctrl + c
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
+.............
+   * PINGS
+.............
+
+### Configurando o acesso remoto via ssh nos servidores dos PCs
+
+✦ Dando nomes aos servidores ``hostname``
+```bash
+sudo hostnamectl set-hostname <hostname>
+```
+✦ Esse comando será executado em cada VM
+
+#### Instalando o servidor SSH
+
+✦ Antes de iniciar: 
+*Altere o Adaptador1 para NAT
+*Edite o arquivo netplan conforme a imagem abaixo:
+
+...............
+...............
+
+✦ Certifique-se de que a VM está acessando a internet
+```bash
+sudo apt update   
+sudo apt upgrade -y  
+```
+
+✦ Instale o SSH
+```bash
+systemctl status ssh
+sudo apt-get install openssh-server
+systemctl status ssh
+```
+
+✦ Analisar o status das portas do sistema
+```bash
+netstat -an | grep LISTEN. 
+```
+
+❖ Figura 8: Status do ssh
+![Captura de Tela (71)](https://user-images.githubusercontent.com/103418874/184290155-e4a4bd44-0de8-4703-b26e-7417de26b4d4.png)
+
+✦ Firewall
+* Permitir conexões remotas seguras 
+```bash
+sudo ufw status
+sudo ufw allow ssh. 
+sudo ufw status
+```
+
+❖ Figura 9: status do firewall
+![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
+
+#### <sub>Para ativar o firewall: </sub>
+```
+sudo ufw enable
+```
+
