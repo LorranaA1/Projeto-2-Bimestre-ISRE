@@ -170,8 +170,11 @@ $ sudo netplan apply
 $ ifconfig -a
 ```
 
+❖ Figura 4: Configuração do arquivo netplan para rede interna
+![Captura de Tela (70)](https://user-images.githubusercontent.com/103418874/184286319-6c4de91b-035a-4c7b-9efe-ad2d49f65098.png)
+
 ### 5.Configuração da rede interna do VirtualBox
-❖ Figura 4: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
+❖ Figura 5: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
 ![Captura de Tela (64)](https://user-images.githubusercontent.com/103418874/184277653-d9419900-b696-43a2-90d8-06735c983643.png)
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
@@ -184,7 +187,7 @@ ping 192.168.13.101
 ```shell
 ping 192.168.13.100   
 ```
-❖ Figura 5: Ilustra o ping das VMs
+❖ Figura 6: Ilustra o ping das VMs
 ![Captura de Tela (63)](https://user-images.githubusercontent.com/103418874/184275949-e1e3360c-0794-4ebb-8bd6-62dc1f6d23f5.png)
 
 ### <sub>Para finalizar o comando</sub>
@@ -199,8 +202,8 @@ ctrl + c
 ✦ Configurar as VMs para o modo bridge nos adaptadores de rede das VMs
 ✦ Gerar novos endereços MAC para todas as VMs automaticamente
 
-❖ Figura 6: Configurando a máquina para o modo bridge
-![Captura de Tela (66)](https://user-images.githubusercontent.com/103418874/184285194-437b68eb-b59e-4652-9156-0232a28eba96.png)
+❖ Figura 7: Configurando a máquina para o modo bridge
+![Captura de Tela (68)](https://user-images.githubusercontent.com/103418874/184285711-6fbd2b42-63ca-4e01-900d-5b665d5e5689.png)
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
