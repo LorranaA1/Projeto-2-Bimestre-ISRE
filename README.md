@@ -101,7 +101,7 @@ sudo apt install virtualbox-ext-pack
 
 #### Criando VMs a partir da importação do arquivo OVA
 
-Figura 2: Ilustra a criação das VMs já definidas:
+❖ Figura 2: Ilustra a criação das VMs já definidas:
 ![Captura de Tela (61)](https://user-images.githubusercontent.com/103418874/184268694-5f3cdeca-5f4b-4fbe-955e-f9f402a27fb6.png)
 
 ### 2.Configurando as NICs das VMs
@@ -112,25 +112,24 @@ Figura 2: Ilustra a criação das VMs já definidas:
 
 ### 3.Fazendo login nas VMs
 
-* Usuário da VM: ``administrador``
-* Senha da VM: ``adminifal``
+✦ Usuário da VM: ``administrador``
+✦ Senha da VM: ``adminifal``
 
-Figura 3: Telas das VMs em execução:
+❖ Figura 3: Telas das VMs em execução:
 
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
 
-..................................
-## Configuração estática de endereço IP na interface de rede 
+............................................................
+## Configuração estática na interface de rede de endereço IP 
 
-* O Ubuntu utiliza um arquivo YAML para configurar as interfaces de rede
-* este arquivo se contra na pasta ``/etc/netplan/``
-* digite: 
+* O Ubuntu utiliza um arquivo YAML, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede
+* Digite os comandos:
 ```shell
 ifconfig -a
 ls -la /etc/netplan
 cat /etc/netplan/01-netcfg.yaml
 ```
-* Verifique o nome correto do arquivo no seu servidor. No exemplo a seguir, o nome do arquivo é ***01-netcfg.yaml***
+✦ Verifique o nome correto do arquivo no seu servidor. No exemplo a seguir, o nome do arquivo é ***01-netcfg.yaml***
 
 
 ### Na VM-Lab01
@@ -193,13 +192,7 @@ $ ifconfig -a
 ```
 ### Configuração da rede interna do VirtualBox
 
-* A Figura 4 Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
-
-<p><center> Figura 4: Configuração das NICs como modo ``rede interna``</center></p>   
-   <img src="figuresPTP/VM-LAB01-Network.png" alt=""
-    title="Figura 4a: VM-LAB01-Network" width="800" height="auto"/> <br/>
-   <img src="figuresPTP/VM-LAB02-Network" alt=""
-    title="Figura 4b: VM-LAB02-Network" width="800" height="auto"/>
+❖ Figura 4: Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
 
 ### Teste a conectividade entre as VMs com o comando ``ping``
 
