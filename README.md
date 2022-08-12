@@ -157,41 +157,43 @@ $ sudo netplan apply
 $ ifconfig -a
 ```
 
-### Na VM-Lab02
+#### Na VM-Lab02
 
-* instale as ferramentas de rede
+✦ Instale as ferramentas de rede
 
 ```bash
 $ sudo apt install net-tools -y
 ```
-*  Edite o arquivo  ***01-netcfg.yaml*** 
+✦ Edite o arquivo  ***01-netcfg.yaml*** 
 
 ```bash
 $ sudo nano /etc/netplan/01-netcfg.yaml
 ```
-*  Adicione as linhas para a configuração estática do IP para configurar o IP para ``172.17.0.2/24``.
+✦ Adicione as linhas para a configuração estática do IP para configurar o IP para ``192.168.13.101``.
 
 ```
 network:
     ethernets:
         enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
-            addresses: [172.17.0.2/24]    # IP e Máscara do Host.
-            gateway4: 172.17.0.1          # IP do Gateway
+            addresses: [192.168.13.101/28]    # IP e Máscara do Host.
+            gateway4: 192.168.13.101          # IP do Gateway
             dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
     version: 2
 ```
-*  Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
+✦ Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
 
 ```bash
 $ sudo netplan apply
 $ ifconfig -a
 ```
-### Configuração da rede interna do VirtualBox
+### 5.Configuração da rede interna do VirtualBox
 
-❖ Figura 4: Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
+❖ Figura 4: Ilustra as configurações para a importação das VMs
 
-### Teste a conectividade entre as VMs com o comando ``ping``
-
+     _____________________________________________________________
+####   Teste a conectividade entre as VMs com o comando ``ping`` 
+     _____________________________________________________________
+     
    * Ping da VM1 para VM2
 
 ```shell
