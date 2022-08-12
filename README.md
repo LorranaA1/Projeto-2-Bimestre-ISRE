@@ -111,8 +111,7 @@ sudo apt install virtualbox-ext-pack
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
 
 ### 4.Configuração estática na interface de rede de endereço IP 
-* Nesta etapa configuraamos os endereços das máquinas para uma mesma rede.
-* Acessar o arquivo do NETPLAN, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede almejadas.
+* O Ubuntu utiliza um arquivo YAML, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede
 * Digite os comandos:
 ```shell
 ifconfig -a
@@ -192,4 +191,16 @@ ping 192.168.13.100
 ```shell
 ctrl + c
 ```
+
+## Conectando as máquinas virtuais através do modo ``bridge``
+
+✦ Desligam-se as VMs
+✦ Conectar os cabos no switch
+✦ Configurar as VMs para o modo bridge nos adaptadores de rede das VMs
+✦ Gerar novos endereços MAC para todas as VMs automaticamente
+
+❖ Figura 6: Configurando a máquina para o modo bridge
+![Captura de Tela (66)](https://user-images.githubusercontent.com/103418874/184285194-437b68eb-b59e-4652-9156-0232a28eba96.png)
+
+###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
