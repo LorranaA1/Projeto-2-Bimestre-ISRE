@@ -11,7 +11,7 @@
 
 ✦ Abrir terminal do computador
 ✦  Logar com o usuário ``redes``
-    ⇨ senha: ``admin@Lab92``
+   ☑ senha: ``admin@Lab92``
 ```bash
 su redes
 ```
@@ -90,8 +90,8 @@ sudo apt install virtualbox-ext-pack
 
 ### Importar VMs no VirtualBox
 
-⇨ O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
-⇨ Esse arquivo será usado para criar as VMs
+■ O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
+■ Esse arquivo será usado para criar as VMs
 
 ❖ Criando VMs a partir da importação do arquivo OVA
 
