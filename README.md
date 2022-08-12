@@ -96,6 +96,8 @@ sudo apt install virtualbox-ext-pack
 ✦ Para importar:
 
 * No VirtualBox => arquivo => importar appliance...
+* Diretório e nome do arquivo a ser importado: /labredes/images/original/ubuntu-server-mini.ova
+* Diretório onde será salva a VM: /labredes/VM/913/nome
 
 ❖ Criando VMs a partir da importação do arquivo OVA
 
