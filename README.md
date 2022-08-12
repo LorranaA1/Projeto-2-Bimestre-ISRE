@@ -100,3 +100,6 @@ sudo apt install virtualbox-ext-pack
 ❖ Criando VMs a partir da importação do arquivo OVA
 
 
+❖ Configurando as NICs das VMs
+
+
