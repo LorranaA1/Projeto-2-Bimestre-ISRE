@@ -29,7 +29,7 @@ su redes
 /labredes
 ```
 
-#Assim, para cada subdiretório existente, acessá-lo por meio do comando ``cd /<NomeSubdiretório>``. A partir daí, utilizar o comando ``sudo mkdir<NovoSubdiretório>`` para preencher o diretório corrente. Veja o seguinte exemplo, para o caso de ``labredes`` já estar criado, mas ``images`` não:
+Assim, para cada subdiretório existente, acessá-lo por meio do comando ``cd /<NomeSubdiretório>``. A partir daí, utilizar o comando ``sudo mkdir<NovoSubdiretório>`` para preencher o diretório corrente. Veja o seguinte exemplo, para o caso de ``labredes`` já estar criado, mas ``images`` não:
 
 ```bash
 cd /labredes
@@ -39,7 +39,7 @@ sudo mkdir original
 cd /labredes/images/original
 ```
 
-#OBS: A mesma lógica vale para o diretório ``/labredes/VM/913/<NomeDoAluno>``.
+OBS: A mesma lógica vale para o diretório ``/labredes/VM/913/<NomeDoAluno>``.
 
 ✦ Checagem de presença do arquivo .ova
 
@@ -109,7 +109,7 @@ ubuntu-22.04-live-server-amd64.iso
 cd /labredes/images/original
 ls -la #lista todos os arquivos
 
-#ATENÇÃO: Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
+ATENÇÃO: Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
 scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
 ```
 
