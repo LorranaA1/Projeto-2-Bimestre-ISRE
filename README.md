@@ -41,45 +41,6 @@ cd /labredes/images/original
 
 OBS: A mesma lógica vale para o diretório ``/labredes/VM/913/<NomeDoAluno>``.
 
-✦ Checagem de presença do arquivo .ova
-
-```bash
-cd /labredes/images/original
-ls -la
-#Caso não haja, instalá-lo por meio do seguinte comando:
-scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
-```
-
-
-
-✦ Criar pasta ``labredes`` na raiz ``/`` e subpastas
-```bash
-sudo mkdir /labredes
-cd /
-```
-
-✦  Verificar se a pasta `labredes` foi criada
-```bash
-ls -la
-```
-
-✦  Verificar a existência do diretório /labredes
-```bash
- ls -la / #verificar a existencia do diretório /labredes
- cd /labredes 
- ls -la / #verificar a existencia do diretório /labredes/imagens
- sudo mkdir images
- cd images
- sudo mkdir original 
- cd original
- ls -la
-
-# cria diretórios e subdiretórios
- cd /
- sudo mkdir labredes/VM
- sudo mkdir labredes/VM/913
- sudo mkdir labredes/VM/913/<nome> # substitua <nome> pelo seu nome
-```
 
 ✦ Adicionar o usuário ```aluno``` ao grupo ```redes```
 ```bash
