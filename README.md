@@ -16,7 +16,7 @@
 su redes
 ```
 
-✦ Criar pastas ``labredes`` na raiz ``/`` e subpastas
+✦ Criar massas ``labredes`` na raiz ``/`` e subpastas
 ```bash
 sudo mkdir /labredes
 cd /
@@ -88,10 +88,15 @@ sudo apt install virtualbox-ext-pack
 ❖ Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
 ![topologia-proj 2b](https://user-images.githubusercontent.com/103418874/184263254-be12a2ea-4bbb-401d-95db-10fc5710086c.png)
 
-### Importar VMs no VirtualBox
+### 1.Importar VMs no VirtualBox
 
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
 * Esse arquivo será usado para criar as VMs
 
+✦ Para importar:
+
+* No VirtualBox => arquivo => importar appliance...
+
 ❖ Criando VMs a partir da importação do arquivo OVA
+
 
