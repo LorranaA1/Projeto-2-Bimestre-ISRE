@@ -110,3 +110,104 @@ Figura 2: Ilustra a criação das VMs já definidas:
 * Definir o nome da rede ``labredes`` como nome da rede virtual
 * Observação: utilizar o mesmo nome nas duas VMs
 
+### 3.Fazendo login nas VMs
+
+* Usuário da VM: ``administrador``
+* Senha da VM: ``adminifal``
+
+Figura 3: Telas das VMs em execução   
+![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
+...
+## Configuração estática de endereço IP na interface de rede 
+
+* O Ubuntu utiliza um arquivo YAML para configurar as interfaces de rede
+* este arquivo se contra na pasta ``/etc/netplan/``
+* digite: 
+```shell
+ifconfig -a
+ls -la /etc/netplan
+cat /etc/netplan/01-netcfg.yaml
+```
+* Verifique o nome correto do arquivo no seu servidor. No exemplo a seguir, o nome do arquivo é ***01-netcfg.yaml***
+
+
+### Na VM-Lab01
+
+* instale as ferramentas de rede
+
+```bash
+$ sudo apt install net-tools -y
+```
+*  Edite o arquivo  ***01-netcfg.yaml*** 
+
+```bash
+$ sudo nano /etc/netplan/01-netcfg.yaml
+```
+*  Adicione as linhas para a configuração estática do IP para configurar o IP para ``172.17.0.2/24``. 
+```
+network:
+    ethernets:
+        enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
+            addresses: [172.17.0.1/24]    # IP e Máscara do Host.
+            gateway4: 172.17.0.1          # IP do Gateway
+            dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
+    version: 2
+```
+*  Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
+
+```bash
+$ sudo netplan apply
+$ ifconfig -a
+```
+
+### Na VM-Lab02
+
+* instale as ferramentas de rede
+
+```bash
+$ sudo apt install net-tools -y
+```
+*  Edite o arquivo  ***01-netcfg.yaml*** 
+
+```bash
+$ sudo nano /etc/netplan/01-netcfg.yaml
+```
+*  Adicione as linhas para a configuração estática do IP para configurar o IP para ``172.17.0.2/24``.
+
+```
+network:
+    ethernets:
+        enp0s3:                           # nome da interface que está sendo configurada. Verifique com o comando 'ifconfig -a'
+            addresses: [172.17.0.2/24]    # IP e Máscara do Host.
+            gateway4: 172.17.0.1          # IP do Gateway
+            dhcp4: false                  # dhcp4 false -> cliente DHCP está desabilitado, logo o utilizará o IP do campo 'addresses'
+    version: 2
+```
+*  Após salvar o arquivo é necessário aplicar as configurações, com o **netplan apply**. Depois veja a configuração das interfaces com ****ifconfig -a***
+
+```bash
+$ sudo netplan apply
+$ ifconfig -a
+```
+### Configuração da rede interna do VirtualBox
+
+* A Figura 4 Ilustra as configurações para a importação das VMs: VM-LAB01 e VM-LAB02
+
+<p><center> Figura 4: Configuração das NICs como modo ``rede interna``</center></p>   
+   <img src="figuresPTP/VM-LAB01-Network.png" alt=""
+    title="Figura 4a: VM-LAB01-Network" width="800" height="auto"/> <br/>
+   <img src="figuresPTP/VM-LAB02-Network" alt=""
+    title="Figura 4b: VM-LAB02-Network" width="800" height="auto"/>
+
+### Teste a conectividade entre as VMs com o comando ``ping``
+
+   * Ping da VM1 para VM2
+
+```shell
+ping 172.17.0.2       # ctrl + c para finalizar o comando
+```
+   * Ping da VM2 para VM1
+
+```shell
+ping 172.17.0.1       # ctrl + c para finalizar o comando
+```
