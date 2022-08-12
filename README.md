@@ -11,7 +11,7 @@
 
 ✦ Abrir terminal do computador
 ✦  Logar com o usuário ``redes``
-  ⇨ senha: ``admin@Lab92``
+    ⇨ senha: ``admin@Lab92``
 ```bash
 su redes
 ```
@@ -51,7 +51,7 @@ sudo usermod -aG redes aluno
 cd /
 ```
 
-✦ Modificar as permissões de arquivos e pastas
+✦ Modificar as permissões de arquivos e pastasImportar VMs no VirtualBox
 ```bash
  sudo chown -R nobody:nogroup /labredes #``chown`` muda o dono da pasta labredes para o usuario nobody e grupo nogroup
  ls -la
@@ -88,5 +88,10 @@ sudo apt install virtualbox-ext-pack
 ❖ Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
 ![topologia-proj 2b](https://user-images.githubusercontent.com/103418874/184263254-be12a2ea-4bbb-401d-95db-10fc5710086c.png)
 
+### Importar VMs no VirtualBox
 
+⇨ O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
+⇨ Esse arquivo será usado para criar as VMs
+
+❖ Criando VMs a partir da importação do arquivo OVA
 
