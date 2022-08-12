@@ -115,7 +115,8 @@ Figura 2: Ilustra a criação das VMs já definidas:
 * Usuário da VM: ``administrador``
 * Senha da VM: ``adminifal``
 
-Figura 3: Telas das VMs em execução   
+Figura 3: Telas das VMs em execução:
+
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
 ...
 ## Configuração estática de endereço IP na interface de rede 
