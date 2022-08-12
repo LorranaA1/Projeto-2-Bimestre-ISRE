@@ -106,4 +106,7 @@ Figura 2: Ilustra a criação das VMs já definidas:
 
 ### 2.Configurando as NICs das VMs
 
+* Nas VMs, acessar as configurações de rede de cada VM e selecionar o modo ``rede interna``
+* Definir o nome da rede ``labredes`` como nome da rede virtual
+* Observação: utilizar o mesmo nome nas duas VMs
 
