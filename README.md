@@ -16,7 +16,7 @@
 su redes
 ```
 
-✦ Criar massas ``labredes`` na raiz ``/`` e subpastas
+✦ Criar pastas ``labredes`` na raiz ``/`` e subpastas
 ```bash
 sudo mkdir /labredes
 cd /
