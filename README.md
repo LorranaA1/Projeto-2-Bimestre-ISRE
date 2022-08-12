@@ -111,7 +111,8 @@ sudo apt install virtualbox-ext-pack
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
 
 ### 4.Configuração estática na interface de rede de endereço IP 
-* O Ubuntu utiliza um arquivo YAML, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede
+* Nesta etapa configuraamos os endereços das máquinas para uma mesma rede.
+* Acessar o arquivo do NETPLAN, que se encontra na pasta ``/etc/netplan/``, para configurar as interfaces de rede almejadas.
 * Digite os comandos:
 ```shell
 ifconfig -a
