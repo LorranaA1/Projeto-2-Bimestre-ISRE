@@ -273,4 +273,3 @@ sudo ufw enable
 ```bash
 ssh <user>@<ipServidorRemoto> 
 ```
-
