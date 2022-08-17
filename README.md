@@ -267,7 +267,7 @@ sudo ufw enable
 ![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
 
 ### Refazendo a topologia de rede
-*No arquivo do netplan, retorne as configurações de rede para o modo bridge em cada VM no VirtualBox e ative o endereçamento IP estático.
+* No arquivo do netplan, retorne as configurações de rede para o modo bridge em cada VM no VirtualBox e ative o endereçamento IP estático.
 
 ✦ Acessando uma máquina virtual
 ```bash
