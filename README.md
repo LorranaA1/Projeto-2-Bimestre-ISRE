@@ -221,9 +221,9 @@ sudo hostnamectl set-hostname <hostname>
 
 #### Instalando o servidor SSH
 
-✦ Antes de iniciar: 
-*Altere o Adaptador1 para NAT
-*Edite o arquivo netplan conforme a imagem abaixo:
+✦ ⚠ ATENÇÃO - Antes de iniciar: 
+1º. Nas configurações de rede: altere o Adaptador1 para NAT
+2º. No arquivo netplan: Edite o arquivo conforme a imagem abaixo
 
 ...............
 ...............
@@ -265,3 +265,12 @@ sudo ufw enable
 ❖ Figura 9: status do firewall
 
 ![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
+
+### Refazendo a topologia de rede
+*No arquivo do netplan, retorne as configurações de rede para o modo bridge em cada VM no VirtualBox e ative o endereçamento IP estático.
+
+✦ Acessando uma máquina virtual
+```bash
+ssh <user>@<ipServidorRemoto> 
+```
+
