@@ -279,7 +279,6 @@ sudo ufw enable
 ```
 
 ❖ Figura 9: status do firewall
-
 ![Captura de Tela (72)](https://user-images.githubusercontent.com/103418874/184290611-b8804ced-109e-4c84-90c3-0e221252f1c7.png)
 
 ### Refazendo a topologia de rede
@@ -295,3 +294,59 @@ ssh <user>@<ipServidorRemoto>
 * ✦ Login da VM ubuntu server
 * ⇨ Usuário: ``administrador``
 * ⇨ senha: ``adminifal``
+
+#### Criando uma interface no computador visando a comunicação entre o PC e a VM e configurando o servidor DHCP no adaptador VBoxNet0.:
+
+* No VirtualBox, clique em Arquivo e depois Host Network Manager
+* NA ABA ADAPTADOR:
+❖ Figura 10: VirtualBox
+<img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
+* NA ABA SERVIDOR DHCP:
+❖ Figura 11: VirtualBox DHCP
+<img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
+* Verifique a configuração das interfaces usando o ``Terminal do computador``
+❖ Figura 12: Interfaces
+![Redes (3)](https://user-images.githubusercontent.com/103418874/186584871-5a292f54-d90a-44bc-b66c-c2244e99b5e2.png)
+
+#### Adicionando um adaptador (HostOnly) em uma VM
+
+``Para acessar a uma VM via rede pelo terminal do PC é preciso criar um novo adapatador de rede à VM``
+❖ Figura 13: Criação do adaptador de rede
+![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
+
+#### Ativando as configurações da Interface na VM para o servidor DHCP
+
+* Verificando a existência da interface “enp0s8”
+❖ Figura 14: Verificando...
+![Redes (9)](https://user-images.githubusercontent.com/103418874/186587289-d495bd6f-8f1e-4b58-8325-eb2138e3a3d8.png)
+* Configurando as interfaces no netplan e ativando o DHCP para o Adaptador 2 (enp0s8):
+❖ Figura 15: Configurando...
+![Redes (10)](https://user-images.githubusercontent.com/103418874/186588563-242b1936-379e-4e4a-abbc-68e3a19274b1.png)
+* Aplicando as configurações:
+```shell
+sudo netplan apply
+```
+* Averiguando se pegou IP na nova interface de rede:
+❖ Figura 16: Averiguando...
+![Redes (11)](https://user-images.githubusercontent.com/103418874/186589201-424495b3-143b-4726-aef2-987d00c1145c.png)
+
+### Acessando uma VM remotamente:
+
+* Exemplo: $ ssh ``<user>``@``<ipServidorRemoto>``
+* Fazendo o login 
+   * de: terminal-pc
+   * para: 192.168.13.100
+
+```shell
+ssh <user>@<ipServidorRemoto>
+```
+
+## Por fim, editando os hostnames no S.O. de cada MV e adicionando o mapeamento IP/Nomes no arquivo /etc/hosts de cada VM
+
+❖ Figura 17: Editando os hostnames
+![Redes (13)](https://user-images.githubusercontent.com/103418874/186592475-159ae721-0d9c-4c9e-8d0c-40e76bb03b93.png)
+![Redes (14)](https://user-images.githubusercontent.com/103418874/186592921-94cbe0ea-e2c3-4a4f-9fff-29e467dd6cd5.png)
+
+❖ Figura 18: Mapeamento
+![Redes (12)](https://user-images.githubusercontent.com/103418874/186591521-7890be13-76e2-4cb7-b81a-32a2b81c7f1e.png)
+
