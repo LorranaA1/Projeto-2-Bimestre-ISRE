@@ -340,10 +340,10 @@ ssh <user>@<ipServidorRemoto>
 
 ``Para acessar a uma VM via rede pelo terminal do PC é preciso criar um novo adapatador de rede à VM``
 
-  ❖ Figura 13: Criação do adaptador de rede
+ ❖ Figura 13: Criação do adaptador de rede
 
-    ![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
-
+   ![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
+    
 #### Ativando as configurações da Interface na VM para o servidor DHCP
 
 * Verificando a existência da interface “enp0s8”
