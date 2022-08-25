@@ -23,6 +23,11 @@
 
 ## Softwares
 
+* VirtualBox
+* SSH server
+* Net-tools
+* Ubuntu server
+
 ### ``CONFIGURAÇÃO/INSTALAÇÃO``
 
 ## Inicialmente:
