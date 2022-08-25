@@ -210,6 +210,7 @@ $ ifconfig -a
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
+Exemplo:
    * Ping da VM1-PC2 para VM2-PC2
 ```shell
 ping 192.168.13.101    
@@ -225,6 +226,7 @@ ping 192.168.13.100
 ```shell
 ctrl + c
 ```
+``PS: Os testes de conectividade entre as VMs na rede interna estão na última seção (TESTES/VALIDAÇÃO)``
 
 ## Conectando as máquinas virtuais através do modo ``bridge``
 
@@ -236,10 +238,9 @@ ctrl + c
 ❖ Figura 7: Configurando a máquina para o modo bridge
 ![Captura de Tela (68)](https://user-images.githubusercontent.com/103418874/184285711-6fbd2b42-63ca-4e01-900d-5b665d5e5689.png)
 
-### ``TESTES/VALIDAÇÃO``
-
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
+Exemplo: 
 * Ping da VM1-PC3 para VM2-PC1
 ```bash
 ping 192.168.13.99
@@ -249,6 +250,8 @@ ping 192.168.13.99
 ping 192.168.13.103
 ```
 * Realizar o ping de todos para todos
+
+``PS: Os testes de conectividade entre as VMs no modo bridge estão na última seção (TESTES/VALIDAÇÃO)``
 
 #### OBSERVAÇÃO: o ping foi realizado de todos para todos
 
@@ -384,9 +387,17 @@ sudo netplan apply
 ```shell
 ssh <user>@<ipServidorRemoto>
 ```
+``PS: Os testes de acesso remoto estão na última seção (TESTES/VALIDAÇÃO)``
 
 ## Por fim, o mapeamento IP/Nomes no arquivo /etc/hosts de cada VM
 
 ❖ Figura 17: Mapeamento
 ![Redes (12)](https://user-images.githubusercontent.com/103418874/186591521-7890be13-76e2-4cb7-b81a-32a2b81c7f1e.png)
 
+### ``TESTES/VALIDAÇÃO``
+
+#### Testes de conectividade entre as VMs na rede interna
+
+#### Testes de conectividade entre as VMs no modo bridge
+
+#### Testes de acesso remoto
