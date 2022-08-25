@@ -183,7 +183,7 @@ $ ifconfig -a
 ❖ Figura 5: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
 ![Captura de Tela (64)](https://user-images.githubusercontent.com/103418874/184277653-d9419900-b696-43a2-90d8-06735c983643.png)
 
-###  <sub>Teste a conectividade entre as VMs com o comando ``ping`` (PC2 - Felype) </sub>
+###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
    * Ping da VM1-PC2 para VM2-PC2
 ```shell
@@ -303,17 +303,20 @@ ssh <user>@<ipServidorRemoto>
 * NA ABA ADAPTADOR:
 
   ❖ Figura 10: VirtualBox
-  <img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
+    
+    <img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
 
 * NA ABA SERVIDOR DHCP:
 
   ❖ Figura 11: VirtualBox DHCP
-  <img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
+  
+    <img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
 
 * Verifique a configuração das interfaces usando o ``Terminal do computador``
 
   ❖ Figura 12: Interfaces
-  ![Redes (3)](https://user-images.githubusercontent.com/103418874/186584871-5a292f54-d90a-44bc-b66c-c2244e99b5e2.png)
+  
+    ![Redes (3)](https://user-images.githubusercontent.com/103418874/186584871-5a292f54-d90a-44bc-b66c-c2244e99b5e2.png)
 
 #### Adicionando um adaptador (HostOnly) em uma VM
 
@@ -321,7 +324,7 @@ ssh <user>@<ipServidorRemoto>
 
 ❖ Figura 13: Criação do adaptador de rede
 
-![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
+  ![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
 
 #### Ativando as configurações da Interface na VM para o servidor DHCP
 
@@ -333,6 +336,7 @@ ssh <user>@<ipServidorRemoto>
 * Configurando as interfaces no netplan e ativando o DHCP para o Adaptador 2 (enp0s8):
 
   ❖ Figura 15: Configurando...
+  
 ![Redes (10)](https://user-images.githubusercontent.com/103418874/186588563-242b1936-379e-4e4a-abbc-68e3a19274b1.png)
 * Aplicando as configurações:
 ```shell
