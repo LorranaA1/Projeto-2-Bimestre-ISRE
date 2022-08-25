@@ -2,6 +2,7 @@
 ### Grupo 7
 
 Içami Costa Silva
+
 Marcos Felype Silva
 Maria Lorrana Alves Barbosa
 Vitor Daniel de Oliveira Magalhães
