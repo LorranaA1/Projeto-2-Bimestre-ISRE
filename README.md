@@ -183,11 +183,11 @@ $ ifconfig -a
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
-   * Ping da VM1 para VM2
+   * Ping da VM1-PC2 para VM2-PC2
 ```shell
 ping 192.168.13.101    
 ```
-   * Ping da VM2 para VM1
+   * Ping da VM2-PC2 para VM1-PC2
 ```shell
 ping 192.168.13.100   
 ```
