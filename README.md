@@ -177,11 +177,13 @@ $ ifconfig -a
 ❖ Figura 4: Configuração do arquivo netplan para rede interna
 ![Captura de Tela (70)](https://user-images.githubusercontent.com/103418874/184286319-6c4de91b-035a-4c7b-9efe-ad2d49f65098.png)
 
+### ⚠ ATENÇÃO - Fazer para todas as máquinas
+
 ### 5.Configuração da rede interna do VirtualBox
 ❖ Figura 5: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
 ![Captura de Tela (64)](https://user-images.githubusercontent.com/103418874/184277653-d9419900-b696-43a2-90d8-06735c983643.png)
 
-###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
+###  <sub>Teste a conectividade entre as VMs com o comando ``ping`` (PC2 - Felype) </sub>
 
    * Ping da VM1-PC2 para VM2-PC2
 ```shell
@@ -211,8 +213,11 @@ ctrl + c
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
-.............
-   * PINGS
+#### PINGS DE TODOS PARA TODOS
+
+* Ping da VM1-PC1 para VM2-PC2 e da VM2-PC2 PARA VM1-PC1
+
+* Ping da VM1-PC1 para VM2-P
 .............
 
 ### Configurando o acesso remoto via ssh nos servidores dos PCs
@@ -227,10 +232,13 @@ sudo hostnamectl set-hostname <hostname>
 
 ✦ ⚠ ATENÇÃO - Antes de iniciar: 
 * 1º. Nas configurações de rede: altere o Adaptador1 para NAT
-* 2º. No arquivo netplan: Edite o arquivo conforme a imagem abaixo
+* 2º. No arquivo netplan: Edite o arquivo seguindo as instruções abaixo
 
-...............
-...............
+```bash
+* ✦ Comente o ``addresses``
+* ✦ Comente o ``gateway4``
+* ✦ Coloque o ``dhcp4`` como true
+```
 
 ✦ Certifique-se de que a VM está acessando a internet
 ```bash
