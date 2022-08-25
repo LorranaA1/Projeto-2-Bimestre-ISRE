@@ -226,7 +226,6 @@ ping 192.168.13.100
 ```shell
 ctrl + c
 ```
-``PS: Os testes de conectividade entre as VMs na rede interna estão na última seção (TESTES/VALIDAÇÃO)``
 
 ## Conectando as máquinas virtuais através do modo ``bridge``
 
@@ -395,8 +394,6 @@ ssh <user>@<ipServidorRemoto>
 ![Redes (12)](https://user-images.githubusercontent.com/103418874/186591521-7890be13-76e2-4cb7-b81a-32a2b81c7f1e.png)
 
 ### ``TESTES/VALIDAÇÃO``
-
-#### Testes de conectividade entre as VMs na rede interna
 
 #### Testes de conectividade entre as VMs no modo bridge
 
