@@ -1,7 +1,7 @@
 # Projeto 2º Bimestre - ISRE
 ### Grupo 7
 
-### ``DEFINIÇÕES``
+### ``   DEFINIÇÕES   ``
 
 ## Tabela de definições de nomes e IPS para todas as VMs
 
@@ -23,7 +23,7 @@
 
 ## Softwares
 
-### ``CONFIGURAÇÃO/INSTALAÇÃO``
+### ``   CONFIGURAÇÃO/INSTALAÇÃO   ``
 
 ## Inicialmente:
 
@@ -227,7 +227,7 @@ ctrl + c
 ❖ Figura 7: Configurando a máquina para o modo bridge
 ![Captura de Tela (68)](https://user-images.githubusercontent.com/103418874/184285711-6fbd2b42-63ca-4e01-900d-5b665d5e5689.png)
 
-``TESTES/VALIDAÇÃO``
+### ``   TESTES/VALIDAÇÃO   ``
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
