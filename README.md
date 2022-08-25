@@ -14,8 +14,8 @@
 ### Realizar os seguintes comandos nos quatro computadores:
 
 * ✦ Abrir terminal do computador
-* ✦  Logar com o usuário ``redes``
-*  ⇨ senha: ``admin@Lab92``
+* ✦ Logar com o usuário ``redes``
+* ⇨ senha: ``admin@Lab92``
 ```bash
 su redes
 ```
@@ -74,7 +74,7 @@ ubuntu-22.04-live-server-amd64.iso
 cd /labredes/images/original
 ls -la #lista todos os arquivos
 
-ATENÇÃO: Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
+⚠ ATENÇÃO: Se não houver os arquivos iso na pasta /labredes/images/original deve-se copiá-los com os comandos:
 scp aluno@192.168.101.10:~/Public/iso-images/ubuntu-server-mini.ova /labredes/images/original
 ```
 
@@ -93,7 +93,7 @@ sudo apt install virtualbox-ext-pack
 ### 1.Importar VMs no VirtualBox
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
 * Esse arquivo será usado para criar as VMs
-✦ Para importar:
+* ✦ Para importar:
 * No VirtualBox => arquivo => importar appliance...
 * Diretório e nome do arquivo a ser importado: /labredes/images/original/ubuntu-server-mini.ova
 * Diretório onde será salva a VM: /labredes/VM/913/nome
@@ -108,8 +108,8 @@ sudo apt install virtualbox-ext-pack
 * Observação: utilizar o mesmo nome nas duas VMs
 
 ### 3.Fazendo login nas VMs
-✦ Usuário da VM: ``administrador``
-✦ Senha da VM: ``adminifal``
+* ⇨ Usuário da VM: ``administrador``
+* ⇨ Senha da VM: ``adminifal``
 
 ❖ Figura 3: Telas das VMs em execução:
 ![Redes (1)](https://user-images.githubusercontent.com/103418874/184270662-080edc60-414b-4e6f-9a72-89ab99c600c2.png)
@@ -298,15 +298,14 @@ ssh <user>@<ipServidorRemoto>
 #### Criando uma interface no computador visando a comunicação entre o PC e a VM e configurando o servidor DHCP no adaptador VBoxNet0.:
 
 * No VirtualBox, clique em Arquivo e depois Host Network Manager
-* NA ABA ADAPTADOR:
+*NA ABA ADAPTADOR:*
 ❖ Figura 10: VirtualBox
 <img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
-* NA ABA SERVIDOR DHCP:
+*NA ABA SERVIDOR DHCP:*
 ❖ Figura 11: VirtualBox DHCP
 <img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
 * Verifique a configuração das interfaces usando o ``Terminal do computador``
 ❖ Figura 12: Interfaces
-
 ![Redes (3)](https://user-images.githubusercontent.com/103418874/186584871-5a292f54-d90a-44bc-b66c-c2244e99b5e2.png)
 
 #### Adicionando um adaptador (HostOnly) em uma VM
