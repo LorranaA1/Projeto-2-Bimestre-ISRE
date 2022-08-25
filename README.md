@@ -1,6 +1,8 @@
 # Projeto 2º Bimestre - ISRE
 ### Grupo 7
 
+
+
 ### ``DEFINIÇÕES``
 
 ## Tabela de definições de nomes e IPS para todas as VMs
