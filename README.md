@@ -235,9 +235,9 @@ sudo hostnamectl set-hostname <hostname>
 * 2º. No arquivo netplan: Edite o arquivo seguindo as instruções abaixo
 
 ```bash
-* ✦ Comente o ``addresses``
-* ✦ Comente o ``gateway4``
-* ✦ Coloque o ``dhcp4`` como true
+* ✦ Comente o _addresses_
+* ✦ Comente o gateway4
+* ✦ Coloque o dhcp4 como true
 ```
 
 ✦ Certifique-se de que a VM está acessando a internet
