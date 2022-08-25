@@ -13,9 +13,9 @@
 
 ### Realizar os seguintes comandos nos quatro computadores:
 
-✦ Abrir terminal do computador
-✦  Logar com o usuário ``redes``
-  ⇨ senha: ``admin@Lab92``
+* ✦ Abrir terminal do computador
+* ✦  Logar com o usuário ``redes``
+*  ⇨ senha: ``admin@Lab92``
 ```bash
 su redes
 ```
@@ -177,7 +177,7 @@ $ ifconfig -a
 ❖ Figura 4: Configuração do arquivo netplan para rede interna
 ![Captura de Tela (70)](https://user-images.githubusercontent.com/103418874/184286319-6c4de91b-035a-4c7b-9efe-ad2d49f65098.png)
 
-### ⚠ ATENÇÃO - Fazer para todas as máquinas
+#### ⚠ ATENÇÃO - Fazer para todas as máquinas
 
 ### 5.Configuração da rede interna do VirtualBox
 ❖ Figura 5: Ilustra as configurações para a importação das VMs | Configuração das NICs como modo ``rede interna``
@@ -213,12 +213,17 @@ ctrl + c
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
-#### PINGS DE TODOS PARA TODOS
+* Ping da VM1-PC3 para VM2-PC1
+```bash
+ping 192.168.13.99
+```
+* Ping da VM2-PC1 para VM2-PC3
+```bash
+ping 192.168.13.103
+```
+* Realizar o ping de todos para todos
 
-* Ping da VM1-PC1 para VM2-PC2 e da VM2-PC2 PARA VM1-PC1
-
-* Ping da VM1-PC1 para VM2-P
-.............
+#### OBSERVAÇÃO: o ping foi realizado de todos para todos
 
 ### Configurando o acesso remoto via ssh nos servidores dos PCs
 
@@ -233,9 +238,8 @@ sudo hostnamectl set-hostname <hostname>
 ✦ ⚠ ATENÇÃO - Antes de iniciar: 
 * 1º. Nas configurações de rede: altere o Adaptador1 para NAT
 * 2º. No arquivo netplan: Edite o arquivo seguindo as instruções abaixo
-
 ```bash
-* ✦ Comente o <b>addresses</b>
+* ✦ Comente o addresses
 * ✦ Comente o gateway4
 * ✦ Coloque o dhcp4 como true
 ```
@@ -285,3 +289,9 @@ sudo ufw enable
 ```bash
 ssh <user>@<ipServidorRemoto> 
 ```
+
+### Acesso Remoto SSH com (Host Only) no Virtual Box
+
+* ✦ Login da VM ubuntu server
+* ⇨ Usuário: ``administrador``
+* ⇨ senha: ``adminifal``
