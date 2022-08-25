@@ -303,23 +303,22 @@ ssh <user>@<ipServidorRemoto>
 * NA ABA ADAPTADOR:
 
   ❖ Figura 10: VirtualBox
-
   <img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
 
 * NA ABA SERVIDOR DHCP:
 
   ❖ Figura 11: VirtualBox DHCP
-
   <img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
 
 * Verifique a configuração das interfaces usando o ``Terminal do computador``
-  ❖ Figura 12: Interfaces
 
+  ❖ Figura 12: Interfaces
   ![Redes (3)](https://user-images.githubusercontent.com/103418874/186584871-5a292f54-d90a-44bc-b66c-c2244e99b5e2.png)
 
 #### Adicionando um adaptador (HostOnly) em uma VM
 
 ``Para acessar a uma VM via rede pelo terminal do PC é preciso criar um novo adapatador de rede à VM``
+
 ❖ Figura 13: Criação do adaptador de rede
 ![Redes (7)](https://user-images.githubusercontent.com/103418874/186586240-d1b7a6f2-3cd3-47fc-baad-1a43354f847c.png)
 
