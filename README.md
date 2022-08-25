@@ -402,6 +402,8 @@ ssh <user>@<ipServidorRemoto>
 
 #### Testes de conectividade entre as VMs no modo bridge
 
+❖ Modo bridge
+
 ![Captura de tela de 2022-08-25 09-40-28](https://user-images.githubusercontent.com/103418874/186724999-41fd0c20-52d6-4902-a550-0f91270d9f6c.png)
 ![Captura de tela de 2022-08-25 09-37-56](https://user-images.githubusercontent.com/103418874/186725003-7bc38649-dd1f-4f7c-94e1-c6e15ede444c.png)
 ![Captura de tela de 2022-08-25 09-41-51](https://user-images.githubusercontent.com/103418874/186725004-382403b8-f963-4ab7-b98c-7d1e61ce9fe7.png)
@@ -423,3 +425,4 @@ ssh <user>@<ipServidorRemoto>
 
 #### Testes de acesso a uma VM via rede pelo terminal do PC
 
+❖ Host-Only
