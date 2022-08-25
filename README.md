@@ -239,9 +239,9 @@ sudo hostnamectl set-hostname <hostname>
 * 1º. Nas configurações de rede: altere o Adaptador1 para NAT
 * 2º. No arquivo netplan: Edite o arquivo seguindo as instruções abaixo
 ```bash
-* ✦ Comente o addresses
-* ✦ Comente o gateway4
-* ✦ Coloque o dhcp4 como true
+✦ Comente o addresses
+✦ Comente o gateway4
+✦ Coloque o dhcp4 como true
 ```
 
 ✦ Certifique-se de que a VM está acessando a internet
