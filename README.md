@@ -7,6 +7,10 @@
 
 ![Máscara](https://user-images.githubusercontent.com/103418874/183775042-13aa9933-b94f-4c75-9a28-945a8852b03f.png)
 
+## Usuaŕios
+![Redes (13)](https://user-images.githubusercontent.com/103418874/186592475-159ae721-0d9c-4c9e-8d0c-40e76bb03b93.png)
+![Redes (14)](https://user-images.githubusercontent.com/103418874/186592921-94cbe0ea-e2c3-4a4f-9fff-29e467dd6cd5.png)
+
 ## Configuração de hardware utilizada
 
 ✦ VMs
@@ -381,12 +385,8 @@ sudo netplan apply
 ssh <user>@<ipServidorRemoto>
 ```
 
-## Por fim, editando os hostnames no S.O. de cada MV e adicionando o mapeamento IP/Nomes no arquivo /etc/hosts de cada VM
+## Por fim, o mapeamento IP/Nomes no arquivo /etc/hosts de cada VM
 
-❖ Figura 17: Editando os hostnames
-![Redes (13)](https://user-images.githubusercontent.com/103418874/186592475-159ae721-0d9c-4c9e-8d0c-40e76bb03b93.png)
-![Redes (14)](https://user-images.githubusercontent.com/103418874/186592921-94cbe0ea-e2c3-4a4f-9fff-29e467dd6cd5.png)
-
-❖ Figura 18: Mapeamento
+❖ Figura 17: Mapeamento
 ![Redes (12)](https://user-images.githubusercontent.com/103418874/186591521-7890be13-76e2-4cb7-b81a-32a2b81c7f1e.png)
 
