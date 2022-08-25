@@ -7,7 +7,7 @@
 
 ![Máscara](https://user-images.githubusercontent.com/103418874/183775042-13aa9933-b94f-4c75-9a28-945a8852b03f.png)
 
-## Usuaŕios
+## Usuários
 ![Redes (13)](https://user-images.githubusercontent.com/103418874/186592475-159ae721-0d9c-4c9e-8d0c-40e76bb03b93.png)
 ![Redes (14)](https://user-images.githubusercontent.com/103418874/186592921-94cbe0ea-e2c3-4a4f-9fff-29e467dd6cd5.png)
 
