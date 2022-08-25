@@ -9,14 +9,16 @@
 
 ## Configuração de hardware utilizada
 
-* VMs
+✦ VMs
 
-![configuracaoVMs](https://user-images.githubusercontent.com/103426684/186650589-2c036395-9333-4b28-969d-6a1ed5c51f7c.png)
+![IMG_20220825_082651](https://user-images.githubusercontent.com/103426684/186652640-4159cf89-e0f6-4216-ba4a-fb2bc3c81712.jpg)
 
 ✦ Tela inicial
+
 ![ConfiguracaoHardware](https://user-images.githubusercontent.com/103418874/186572061-9afea2aa-4cf0-4d81-bc68-9e92326e1db9.png)
 
-* Rede Física
+✦ Rede Física
+
 ![IMG-20220812-WA0054](https://user-images.githubusercontent.com/103426684/186651107-78c43c5e-caf3-42fc-8ff4-776f2f96cb2e.jpg)
 
 ## Softwares
