@@ -1,13 +1,27 @@
 # Projeto 2º Bimestre - ISRE
 ### Grupo 7
 
+``DEFINIÇÕES``
+
 ## Tabela de definições de nomes e IPS para todas as VMs
 
 ![Máscara](https://user-images.githubusercontent.com/103418874/183775042-13aa9933-b94f-4c75-9a28-945a8852b03f.png)
 
 ## Configuração de hardware utilizada
 
+* VMs
+
+![configuracaoVMs](https://user-images.githubusercontent.com/103426684/186650589-2c036395-9333-4b28-969d-6a1ed5c51f7c.png)
+
+✦ Tela inicial
 ![ConfiguracaoHardware](https://user-images.githubusercontent.com/103418874/186572061-9afea2aa-4cf0-4d81-bc68-9e92326e1db9.png)
+
+* Rede Física
+![IMG-20220812-WA0054](https://user-images.githubusercontent.com/103426684/186651107-78c43c5e-caf3-42fc-8ff4-776f2f96cb2e.jpg)
+
+## Softwares
+
+``CONFIGURAÇÃO/INSTALAÇÃO``
 
 ## Inicialmente:
 
@@ -210,6 +224,8 @@ ctrl + c
 
 ❖ Figura 7: Configurando a máquina para o modo bridge
 ![Captura de Tela (68)](https://user-images.githubusercontent.com/103418874/184285711-6fbd2b42-63ca-4e01-900d-5b665d5e5689.png)
+
+``TESTES/VALIDAÇÃO``
 
 ###  <sub>Teste a conectividade entre as VMs com o comando ``ping``</sub>
 
