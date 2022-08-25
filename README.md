@@ -321,8 +321,10 @@ ssh <user>@<ipServidorRemoto>
 
 * Verificando a existência da interface “enp0s8”
 ❖ Figura 14: Verificando...
+
 ![Redes (9)](https://user-images.githubusercontent.com/103418874/186587289-d495bd6f-8f1e-4b58-8325-eb2138e3a3d8.png)
 * Configurando as interfaces no netplan e ativando o DHCP para o Adaptador 2 (enp0s8):
+
 ❖ Figura 15: Configurando...
 ![Redes (10)](https://user-images.githubusercontent.com/103418874/186588563-242b1936-379e-4e4a-abbc-68e3a19274b1.png)
 * Aplicando as configurações:
@@ -330,6 +332,7 @@ ssh <user>@<ipServidorRemoto>
 sudo netplan apply
 ```
 * Averiguando se pegou IP na nova interface de rede:
+
 ❖ Figura 16: Averiguando...
 ![Redes (11)](https://user-images.githubusercontent.com/103418874/186589201-424495b3-143b-4726-aef2-987d00c1145c.png)
 
