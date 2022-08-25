@@ -301,11 +301,13 @@ ssh <user>@<ipServidorRemoto>
 * No VirtualBox, clique em Arquivo e depois Host Network Manager
 
 * NA ABA ADAPTADOR:
+
   ❖ Figura 10: VirtualBox
 
   <img width="795" alt="VirtualBox" src="https://user-images.githubusercontent.com/103418874/186584618-03b6fc4d-0a83-4c22-a7ea-3274f085099e.png">
 
 * NA ABA SERVIDOR DHCP:
+
   ❖ Figura 11: VirtualBox DHCP
 
   <img width="785" alt="VirtualBox-dhcp" src="https://user-images.githubusercontent.com/103418874/186584630-4ac78d86-0930-487d-b704-d8caf974ed71.png">
