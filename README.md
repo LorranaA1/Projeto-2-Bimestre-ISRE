@@ -222,8 +222,8 @@ sudo hostnamectl set-hostname <hostname>
 #### Instalando o servidor SSH
 
 ✦ ⚠ ATENÇÃO - Antes de iniciar: 
-1º. Nas configurações de rede: altere o Adaptador1 para NAT
-2º. No arquivo netplan: Edite o arquivo conforme a imagem abaixo
+* 1º. Nas configurações de rede: altere o Adaptador1 para NAT
+* 2º. No arquivo netplan: Edite o arquivo conforme a imagem abaixo
 
 ...............
 ...............
