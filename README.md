@@ -5,6 +5,10 @@
 
 ![Máscara](https://user-images.githubusercontent.com/103418874/183775042-13aa9933-b94f-4c75-9a28-945a8852b03f.png)
 
+## Configuração de hardware utilizada
+
+![Hardware](https://user-images.githubusercontent.com/103418874/186571747-4f71b83a-2a5f-45e8-829f-c3e59518db91.png)
+
 ## Inicialmente:
 
 ### Realizar os seguintes comandos nos quatro computadores:
