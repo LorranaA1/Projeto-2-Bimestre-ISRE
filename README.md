@@ -7,7 +7,7 @@
 
 ## Configuração de hardware utilizada
 
-![Hardware](https://user-images.githubusercontent.com/103418874/186571747-4f71b83a-2a5f-45e8-829f-c3e59518db91.png)
+![ConfiguracaoHardware](https://user-images.githubusercontent.com/103418874/186572061-9afea2aa-4cf0-4d81-bc68-9e92326e1db9.png)
 
 ## Inicialmente:
 
