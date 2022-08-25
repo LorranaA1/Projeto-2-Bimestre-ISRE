@@ -201,10 +201,10 @@ ctrl + c
 
 ## Conectando as máquinas virtuais através do modo ``bridge``
 
-✦ Desligam-se as VMs
-✦ Conectar os cabos no switch
-✦ Configurar as VMs para o modo bridge nos adaptadores de rede das VMs
-✦ Gerar novos endereços MAC para todas as VMs automaticamente
+* ✦ Desligam-se as VMs
+* ✦ Conectar os cabos no switch
+* ✦ Configurar as VMs para o modo bridge nos adaptadores de rede das VMs
+* ✦ Gerar novos endereços MAC para todas as VMs automaticamente
 
 ❖ Figura 7: Configurando a máquina para o modo bridge
 ![Captura de Tela (68)](https://user-images.githubusercontent.com/103418874/184285711-6fbd2b42-63ca-4e01-900d-5b665d5e5689.png)
