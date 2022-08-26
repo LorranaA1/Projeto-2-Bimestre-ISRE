@@ -424,6 +424,7 @@ ssh <user>@<ipServidorRemoto>
 
 ❖ SSH
 
+✦ <user>@<IP>
 ![Captura de tela de 2022-08-25 08-52-16](https://user-images.githubusercontent.com/103418874/186724717-4d984a55-3b2e-4a65-8692-858aad70551f.png)
 ![Captura de tela de 2022-08-25 08-58-17](https://user-images.githubusercontent.com/103418874/186724725-85e7c3c6-2457-4de5-8799-657c6e916d20.png)
 ![Captura de tela de 2022-08-25 08-59-03](https://user-images.githubusercontent.com/103418874/186724726-8343cee2-7d61-4393-aa59-accc2f17b9e2.png)
