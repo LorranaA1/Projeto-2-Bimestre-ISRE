@@ -424,19 +424,18 @@ ssh <user>@<ipServidorRemoto>
 
 ❖ SSH
 
-✦ <user>@<IP>
+✦ Para IP
  
  ![Captura de tela de 2022-08-25 08-57-23](https://user-images.githubusercontent.com/103418874/186724732-4f625342-e92c-404b-8bd1-367c26d20dc7.png)
  
-✦ <user2>@Hostname | FQDN | Aliase
+✦ Para Hostname
 
 ![user2@hostname](https://user-images.githubusercontent.com/103418874/186793896-49bee786-1fff-4d8c-9fe5-64dd3dcea8ca.png)
 
-FQDN
+✦ Para FQDN 
 
-Aliase
+✦ Para Aliase
 
-✦ <user3>@FQDN | Aliase | Hostname
  
 FQDN
 
