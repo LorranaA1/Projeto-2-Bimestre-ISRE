@@ -431,12 +431,15 @@ ssh <user>@<ipServidorRemoto>
 ✦ <user2>@Hostname | FQDN | Aliase
 
 ![user2@hostname](https://user-images.githubusercontent.com/103418874/186793896-49bee786-1fff-4d8c-9fe5-64dd3dcea8ca.png)
+
 FQDN
+
 Aliase
 
 ✦ <user3>@FQDN | Aliase | Hostname
  
 FQDN
+
 ![user3@aliase](https://user-images.githubusercontent.com/103418874/186794109-0c2e34ac-987c-4b0a-a769-2f0aa493ee4b.png)
 ![user3@aliase (2)](https://user-images.githubusercontent.com/103418874/186794121-8a754ce3-a121-4efb-bbd7-f673d5547ec0.png)
 
