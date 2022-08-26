@@ -459,6 +459,6 @@ FQDN
 
 ![Captura de tela de 2022-08-25 08-48-10](https://user-images.githubusercontent.com/103418874/186724734-f0c8b495-44f5-49ee-8acd-abe720ae7522.png)
 
-##Conclusão
+## Conclusão
 
 Para fins conclusivos da construção do projeto e de seu respectivo roteiro, é possível inferir que a cooperação mútua visando o alcance do objetivo supracitado foi de suma relevância, haja vista que possibilitou uma maior aprendizagem e memorização dos comandos Linux, da configuração das VMs e da rede física, bem como das definições e dos testes de conectividade.
