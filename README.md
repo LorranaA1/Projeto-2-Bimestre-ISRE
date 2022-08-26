@@ -126,6 +126,8 @@ sudo apt install virtualbox-ext-pack
 ![topologia-proj 2b](https://user-images.githubusercontent.com/103418874/184263254-be12a2ea-4bbb-401d-95db-10fc5710086c.png)
 
 
+VM Lab01@PC1 (nossa VM1-PC1) foi configurada como o Host-Only.
+
 ### 1.Importar VMs no VirtualBox
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
 * Esse arquivo será usado para criar as VMs
