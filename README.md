@@ -2,8 +2,11 @@
 ### Grupo 7
 
 Disciplina: Infraestrutura e Serviços de Redes
+
 Professor: Alaelson Jatobá
+
 Turma: 913
+
 * Içami Costa Silva
 * Marcos Felype Silva
 * Maria Lorrana Alves Barbosa
