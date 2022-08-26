@@ -431,10 +431,11 @@ ssh <user>@<ipServidorRemoto>
 ![Captura de tela de 2022-08-25 08-55-57](https://user-images.githubusercontent.com/103418874/186724728-05c0215f-503b-43c3-a4ce-3bd3d167079c.png)
 ![Captura de tela de 2022-08-25 08-59-47](https://user-images.githubusercontent.com/103418874/186724729-2b290903-6b20-4a5f-b3b0-5974628757d5.png)
 ![Captura de tela de 2022-08-25 08-57-23](https://user-images.githubusercontent.com/103418874/186724732-4f625342-e92c-404b-8bd1-367c26d20dc7.png)
-![Captura de tela de 2022-08-25 08-48-10](https://user-images.githubusercontent.com/103418874/186724734-f0c8b495-44f5-49ee-8acd-abe720ae7522.png)
 ![Captura de tela de 2022-08-25 08-50-00](https://user-images.githubusercontent.com/103418874/186724737-f4c2af1c-bf92-4bfe-9867-fa7353ec0d5c.png)
 ![Captura de tela de 2022-08-25 08-51-44](https://user-images.githubusercontent.com/103418874/186724742-5c35b7da-b8b0-456a-955d-b0746c4a6f78.png)
 
 #### Testes de acesso a uma VM via rede pelo terminal do PC
 
 ❖ Host-Only
+
+![Captura de tela de 2022-08-25 08-48-10](https://user-images.githubusercontent.com/103418874/186724734-f0c8b495-44f5-49ee-8acd-abe720ae7522.png)
