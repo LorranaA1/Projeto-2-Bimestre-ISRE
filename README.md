@@ -424,33 +424,35 @@ ssh <user>@<ipServidorRemoto>
 
 ❖ SSH
 
+USUAŔIO VITOR
+
 ✦ Para IP
  
- ![Captura de tela de 2022-08-25 08-57-23](https://user-images.githubusercontent.com/103418874/186724732-4f625342-e92c-404b-8bd1-367c26d20dc7.png)
- 
+
+![Captura de tela de 2022-08-25 08-48-10](https://user-images.githubusercontent.com/103418874/186926569-0ca439a7-475a-40a4-aa3f-6763fbca4f42.png)
+![Captura de tela de 2022-08-25 08-57-23](https://user-images.githubusercontent.com/103418874/186925955-ab8d5f68-d1a2-4f10-b15d-973119eab4c1.png)
+![Captura de tela de 2022-08-25 08-55-57](https://user-images.githubusercontent.com/103418874/186926100-20214016-b0f1-40ce-b31b-b735f984fee1.png)
+
 ✦ Para Hostname
 
-![user2@hostname](https://user-images.githubusercontent.com/103418874/186793896-49bee786-1fff-4d8c-9fe5-64dd3dcea8ca.png)
-
-✦ Para FQDN 
+![Captura de tela de 2022-08-25 08-50-00](https://user-images.githubusercontent.com/103418874/186926454-c46bae4f-54f2-486f-9ffc-ba96340d608d.png)
+![Captura de tela de 2022-08-25 08-51-44 (1)](https://user-images.githubusercontent.com/103418874/186926392-267881d9-a1fa-4729-b6a3-da1f12a6dfa4.png)
+![Captura de tela de 2022-08-25 08-52-16](https://user-images.githubusercontent.com/103418874/186926273-3f2e3d3b-5e61-43ab-90a2-113ed910b2ed.png)
 
 ✦ Para Aliase
 
- 
-FQDN
-
-![user3@aliase](https://user-images.githubusercontent.com/103418874/186794109-0c2e34ac-987c-4b0a-a769-2f0aa493ee4b.png)
-![user3@aliase (2)](https://user-images.githubusercontent.com/103418874/186794121-8a754ce3-a121-4efb-bbd7-f673d5547ec0.png)
+![Captura de tela de 2022-08-25 08-59-47](https://user-images.githubusercontent.com/103418874/186926064-1dee99a6-faf9-4834-899e-82c25a5599b3.png)
+![Captura de tela de 2022-08-25 08-58-17](https://user-images.githubusercontent.com/103418874/186926183-9432ac1d-ea10-405e-aafe-317da91cc72f.png)
+![Captura de tela de 2022-08-25 08-59-03](https://user-images.githubusercontent.com/103418874/186926132-5213981d-aebb-4663-92a6-c6fa3c4b05c7.png)
 
 
- 
-![Captura de tela de 2022-08-25 08-52-16](https://user-images.githubusercontent.com/103418874/186724717-4d984a55-3b2e-4a65-8692-858aad70551f.png)
-![Captura de tela de 2022-08-25 08-58-17](https://user-images.githubusercontent.com/103418874/186724725-85e7c3c6-2457-4de5-8799-657c6e916d20.png)
-![Captura de tela de 2022-08-25 08-59-03](https://user-images.githubusercontent.com/103418874/186724726-8343cee2-7d61-4393-aa59-accc2f17b9e2.png)
-![Captura de tela de 2022-08-25 08-55-57](https://user-images.githubusercontent.com/103418874/186724728-05c0215f-503b-43c3-a4ce-3bd3d167079c.png)
-![Captura de tela de 2022-08-25 08-59-47](https://user-images.githubusercontent.com/103418874/186724729-2b290903-6b20-4a5f-b3b0-5974628757d5.png)
-![Captura de tela de 2022-08-25 08-50-00](https://user-images.githubusercontent.com/103418874/186724737-f4c2af1c-bf92-4bfe-9867-fa7353ec0d5c.png)
-![Captura de tela de 2022-08-25 08-51-44](https://user-images.githubusercontent.com/103418874/186724742-5c35b7da-b8b0-456a-955d-b0746c4a6f78.png)
+USUAŔIO LORRANA
+
+✦ Para FQDN 
+
+![ssh](https://user-images.githubusercontent.com/103418874/186925343-5547266b-f395-4023-a8ce-295ad57d65dc.png)
+![ssh-fqdn](https://user-images.githubusercontent.com/103418874/186924234-5ffe1c2a-459e-4a49-a8fb-9e47b0763891.png)
+
 
 #### Testes de acesso a uma VM via rede pelo terminal do PC
 
