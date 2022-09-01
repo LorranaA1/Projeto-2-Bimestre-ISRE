@@ -126,7 +126,6 @@ sudo apt install virtualbox-ext-pack
 
 ❖ FIgura 1: Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
 ![VM1-PC1](https://user-images.githubusercontent.com/103418874/187897015-4b540878-f870-4c73-acea-6f2aa3c5e2b3.png)
-
 Nossa VM1-PC1 foi configurada como o Host-Only.
 
 ### 1.Importar VMs no VirtualBox
