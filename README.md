@@ -124,7 +124,7 @@ sudo apt install virtualbox-ext-pack
 
 ## Criando um ambiente de rede com 8 máquinas virtuais com um switch
 
-❖ Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
+❖ FIgura 1: Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
 ![VM1-PC1 (1)](https://user-images.githubusercontent.com/103418874/187735531-49f7a5f2-80df-40b6-9e8c-8b529030a24d.png)
 
 Nossa VM2-PC1 foi configurada como o Host-Only.
