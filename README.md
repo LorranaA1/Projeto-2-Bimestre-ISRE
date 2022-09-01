@@ -3,9 +3,11 @@
 
 Disciplina: Infraestrutura e Serviços de Redes
 
-Professor: Alaelson Jatobá
+Docente: Alaelson Jatobá
 
 Turma: 913
+
+Discentes:
 
 * Içami Costa Silva
 * Marcos Felype Silva
