@@ -125,7 +125,7 @@ sudo apt install virtualbox-ext-pack
 ❖ Topologia de Rede virtualizada dentro do VitualBox para fins de execução adequada do projeto
 ![VM1-PC1 (1)](https://user-images.githubusercontent.com/103418874/187735531-49f7a5f2-80df-40b6-9e8c-8b529030a24d.png)
 
-VM Lab01@PC1 (nossa VM1-PC1) foi configurada como o Host-Only.
+Nossa VM2-PC1 foi configurada como o Host-Only.
 
 ### 1.Importar VMs no VirtualBox
 * O arquivo .OVA é um formato de exportação de VM utilizado pelo VirtualBox
