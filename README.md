@@ -37,6 +37,8 @@ Discentes:
 ✦ Rede Física
 
 ![IMG-20220812-WA0054](https://user-images.githubusercontent.com/103426684/186651107-78c43c5e-caf3-42fc-8ff4-776f2f96cb2e.jpg)
+![Infraestrutura2](https://user-images.githubusercontent.com/103418874/187905747-599b9918-8046-4003-ac7b-5f40adb14092.jpg)
+![IMG-20220901-WA0014](https://user-images.githubusercontent.com/103418874/187905769-5a0746e2-1bba-4a81-8adb-a63753c4bde7.jpg)
 
 ## Softwares
 
