@@ -55,7 +55,6 @@ Discentes:
 
 * ✦ Abrir terminal do computador
 * ✦ Logar com o usuário ``redes``
-* ⇨ senha: ``admin@Lab92``
 ```bash
 su redes
 ```
